@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D9698C0-5712-4470-9D01-A3EB551963D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsForms_First_Quiz</RootNamespace>
+    <AssemblyName>WindowsForms First Quiz</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Create New Test Choice\CreateNewTestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Create New Test Choice\CreateNewTestControl.Designer.cs">
+      <DependentUpon>CreateNewTestControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Exception Classes\LoginNotSuccessfullException.cs" />
+    <Compile Include="Entity Classes\Database.cs" />
+    <Compile Include="Entity Classes\Answer.cs" />
+    <Compile Include="Entity Classes\FacebookAutomation.cs" />
+    <Compile Include="Entity Classes\QuestionBlock.cs" />
+    <Compile Include="Entity Classes\QuizUser.cs" />
+    <Compile Include="ExaminationHeadPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExaminationHeadPageControl.Designer.cs">
+      <DependentUpon>ExaminationHeadPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File Helper Classes\JsonFileHelper.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File Helper Classes\PdfFileHelper.cs" />
+    <Compile Include="Static Classes\Browser.cs" />
+    <Compile Include="LeaderBoard Choice\LeaderboardEntryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\LeaderboardEntryControl.Designer.cs">
+      <DependentUpon>LeaderboardEntryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\LeaderboardTestNamesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\LeaderboardTestNamesControl.Designer.cs">
+      <DependentUpon>LeaderboardTestNamesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\LeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\LeaderControl.Designer.cs">
+      <DependentUpon>LeaderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\PlacementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LeaderBoard Choice\PlacementControl.Designer.cs">
+      <DependentUpon>PlacementControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login, SignUp\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login, SignUp\LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Create New Test Choice\QuestionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Create New Test Choice\QuestionControl.Designer.cs">
+      <DependentUpon>QuestionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login, SignUp\SignUpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login, SignUp\SignUpControl.Designer.cs">
+      <DependentUpon>SignUpControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Static Classes\ContextMenuItemChoices.cs" />
+    <Compile Include="Static Classes\QuestionChoices.cs" />
+    <Compile Include="Static Classes\QuizUserState.cs" />
+    <Compile Include="Static Classes\Results.cs" />
+    <Compile Include="Take an Examination Choice\ExaminationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Take an Examination Choice\ExaminationControl.Designer.cs">
+      <DependentUpon>ExaminationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Take an Examination Choice\ExamQuestionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Take an Examination Choice\ExamQuestionsControl.Designer.cs">
+      <DependentUpon>ExamQuestionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Take an Examination Choice\FinalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Take an Examination Choice\FinalForm.Designer.cs">
+      <DependentUpon>FinalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Take an Examination Choice\SaveFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Take an Examination Choice\SaveFileForm.Designer.cs">
+      <DependentUpon>SaveFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Take an Examination Choice\ShelfControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Take an Examination Choice\ShelfControl.Designer.cs">
+      <DependentUpon>ShelfControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Take an Examination Choice\TakeExaminationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Take an Examination Choice\TakeExaminationControl.Designer.cs">
+      <DependentUpon>TakeExaminationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity Classes\User.cs" />
+    <Compile Include="File Helper Classes\XMLFileHelper.cs" />
+    <EmbeddedResource Include="Create New Test Choice\CreateNewTestControl.resx">
+      <DependentUpon>CreateNewTestControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExaminationHeadPageControl.resx">
+      <DependentUpon>ExaminationHeadPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderBoard Choice\LeaderboardEntryControl.resx">
+      <DependentUpon>LeaderboardEntryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderBoard Choice\LeaderboardTestNamesControl.resx">
+      <DependentUpon>LeaderboardTestNamesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderBoard Choice\LeaderControl.resx">
+      <DependentUpon>LeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderBoard Choice\PlacementControl.resx">
+      <DependentUpon>PlacementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login, SignUp\LoginControl.resx">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create New Test Choice\QuestionControl.resx">
+      <DependentUpon>QuestionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login, SignUp\SignUpControl.resx">
+      <DependentUpon>SignUpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take an Examination Choice\ExaminationControl.resx">
+      <DependentUpon>ExaminationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take an Examination Choice\ExamQuestionsControl.resx">
+      <DependentUpon>ExamQuestionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take an Examination Choice\FinalForm.resx">
+      <DependentUpon>FinalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take an Examination Choice\SaveFileForm.resx">
+      <DependentUpon>SaveFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take an Examination Choice\ShelfControl.resx">
+      <DependentUpon>ShelfControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take an Examination Choice\TakeExaminationControl.resx">
+      <DependentUpon>TakeExaminationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\wrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\invisible eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\visible eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\Exam Head Page.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\Create New Test Page.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\monkey.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Photos\hands.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+</Project>

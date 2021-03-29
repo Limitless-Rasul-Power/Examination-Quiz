@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Release\WindowsForms First Quiz.exe.config
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Release\WindowsForms First Quiz.exe
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Release\WindowsForms First Quiz.pdb
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Release\Guna.UI2.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Release\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Release\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms First Quiz.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms_First_Quiz.Form1.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms_First_Quiz.LoginControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms_First_Quiz.Properties.Resources.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms_First_Quiz.SignUpControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms First Quiz.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms First Quiz.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms First Quiz.csproj.CopyComplete
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms First Quiz.exe
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Release\WindowsForms First Quiz.pdb

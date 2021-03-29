@@ -1,0 +1,36 @@
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.CreateNewTestControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.ExaminationHeadPageControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Form1.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.LoginControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Properties.Resources.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.QuestionControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.SignUpControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Take_an_Examination_Choice.ExaminationControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Take_an_Examination_Choice.ExamQuestionsControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Take_an_Examination_Choice.ShelfControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.TakeExaminationControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms First Quiz.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms First Quiz.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms First Quiz.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WindowsForms First Quiz.exe.config
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WindowsForms First Quiz.exe
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WindowsForms First Quiz.pdb
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms First Quiz.csproj.CopyComplete
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms First Quiz.exe
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms First Quiz.pdb
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Take_an_Examination_Choice.FinalForm.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.LeaderBoard_Choice.LeaderboardEntryControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.LeaderBoard_Choice.LeaderboardTestNamesControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.LeaderBoard_Choice.LeaderControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.LeaderBoard_Choice.PlacementControl.resources
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WebDriver.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WebDriver.Support.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WebDriver.xml
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\WebDriver.Support.xml
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\itextsharp.dll
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\bin\Debug\itextsharp.xml
+C:\Users\Admin\source\repos\WindowsForms First Quiz\WindowsForms First Quiz\obj\Debug\WindowsForms_First_Quiz.Take_an_Examination_Choice.SaveFileForm.resources
